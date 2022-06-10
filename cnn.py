@@ -18,7 +18,7 @@ labelencoder = ['!', '(', ')', '+', '-', '0', '1', '2', '3', '4', '5', '6', '7',
 
 def extract_imgs(location,img):
     x,y,w,h=location
-    # 只提取轮廓内的字符
+    # 找目標方框內的符號
     extracted_img = img[y:y + h, x:x + w]
     # 将提取出的img归一化成IMG_SIZE*IMG_SIZE大小的二值图
     #black = np.zeros((96, 96), np.uint8)
@@ -150,7 +150,7 @@ class ConvolutionalNeuralNetwork:
         #print(locations)
 
         symbol_segment_location = []
-# 将每一个联通体，作为一个字符
+
         symbol_segment_list = []
         extacted = []
 
@@ -216,7 +216,7 @@ class ConvolutionalNeuralNetwork:
         string = '1'
         for location in locations:
             symbol_segment_location.append(location)
-            # 只提取轮廓内的字符
+            # 只提取輪廓内的字符
             #extracted_img = extract_img(location,erosion,contour)
             extracted_img = extract_imgs(location, blackAndWhiteImage)
             symbol_segment_list.append(extracted_img)
@@ -228,8 +228,7 @@ class ConvolutionalNeuralNetwork:
         symbols=[]
         for i in range(len(symbol_segment_location)):
             symbols.append({'location':symbol_segment_location[i],'src_img':symbol_segment_list[i]})
-            # 对字符按字符横坐标排序
-
+            #對字符按照x座標排序
         symbols.sort(key=lambda x:x['location'][0])
         equa = ''
         pred_equa = ''
