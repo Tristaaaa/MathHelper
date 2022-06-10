@@ -20,7 +20,7 @@ def extract_imgs(location,img):
     x,y,w,h=location
     # 找目標方框內的符號
     extracted_img = img[y:y + h, x:x + w]
-    # 将提取出的img归一化成IMG_SIZE*IMG_SIZE大小的二值图
+    # 將圖片轉為IMG_SIZE*IMG_SIZE大小的binary圖
     #black = np.zeros((96, 96), np.uint8)
     white = np.full((45, 45), 255, np.uint8)
     if (w > h):
