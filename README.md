@@ -19,3 +19,5 @@ pretrained model of the CNN
 ### training model and comparison
 - classifier_train.ipynb
 - classifier_validate.ipynb
+- prediction.ipynb
+- train_final.ipynb
