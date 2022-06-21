@@ -5,6 +5,9 @@
 ### Dataset
 dataset from (https://www.kaggle.com/xainano/handwrittenmathsymbols) + (http://yann.lecun.com/exdb/mnist/)
 
+### Overview
+![image](https://github.com/Tristaaaa/MathHelper/blob/main/test/overview.png)
+
 ### app.py(FRONTEND)
 以 flask 建立網頁，透過 p5.js 實作互動式 sketchpad，作為使用者和後端計算之間的介面
 
@@ -21,3 +24,12 @@ pretrained model of the CNN
 - train_final.ipynb
 
 ## Test result
+<p float="left">
+    <img src="https://github.com/Tristaaaa/MathHelper/blob/main/test/%E8%9E%A2%E5%B9%95%E6%93%B7%E5%8F%96%E7%95%AB%E9%9D%A2%202022-06-10%20191449.png" alt="1" width="500" />
+    <img src="https://github.com/Tristaaaa/MathHelper/blob/main/test/%E8%9E%A2%E5%B9%95%E6%93%B7%E5%8F%96%E7%95%AB%E9%9D%A2%202022-06-10%20185114.png" alt="2" width="500" /> 
+</p>
+
+<p float="left">
+    <img src="https://github.com/Tristaaaa/MathHelper/blob/main/test/%E8%9E%A2%E5%B9%95%E6%93%B7%E5%8F%96%E7%95%AB%E9%9D%A2%202022-06-10%20185806.png" alt="1" width="500" />
+    <img src="https://github.com/Tristaaaa/MathHelper/blob/main/test/%E8%9E%A2%E5%B9%95%E6%93%B7%E5%8F%96%E7%95%AB%E9%9D%A2%202022-06-10%20185359.png" alt="2" width="500" /> 
+</p>
