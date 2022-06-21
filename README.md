@@ -25,11 +25,11 @@ pretrained model of the CNN
 
 ## Test result
 <p float="left">
-    <img src="https://github.com/Tristaaaa/MathHelper/blob/main/test/%E8%9E%A2%E5%B9%95%E6%93%B7%E5%8F%96%E7%95%AB%E9%9D%A2%202022-06-10%20191449.png" alt="1" width="500" />
-    <img src="https://github.com/Tristaaaa/MathHelper/blob/main/test/%E8%9E%A2%E5%B9%95%E6%93%B7%E5%8F%96%E7%95%AB%E9%9D%A2%202022-06-10%20185114.png" alt="2" width="500" /> 
+    <img src="https://github.com/Tristaaaa/MathHelper/blob/main/test/%E8%9E%A2%E5%B9%95%E6%93%B7%E5%8F%96%E7%95%AB%E9%9D%A2%202022-06-10%20191449.png" alt="1" width="300" />
+    <img src="https://github.com/Tristaaaa/MathHelper/blob/main/test/%E8%9E%A2%E5%B9%95%E6%93%B7%E5%8F%96%E7%95%AB%E9%9D%A2%202022-06-10%20185114.png" alt="2" width="300" /> 
 </p>
 
 <p float="left">
-    <img src="https://github.com/Tristaaaa/MathHelper/blob/main/test/%E8%9E%A2%E5%B9%95%E6%93%B7%E5%8F%96%E7%95%AB%E9%9D%A2%202022-06-10%20185806.png" alt="1" width="500" />
-    <img src="https://github.com/Tristaaaa/MathHelper/blob/main/test/%E8%9E%A2%E5%B9%95%E6%93%B7%E5%8F%96%E7%95%AB%E9%9D%A2%202022-06-10%20185359.png" alt="2" width="500" /> 
+    <img src="https://github.com/Tristaaaa/MathHelper/blob/main/test/%E8%9E%A2%E5%B9%95%E6%93%B7%E5%8F%96%E7%95%AB%E9%9D%A2%202022-06-10%20185806.png" alt="1" width="300" />
+    <img src="https://github.com/Tristaaaa/MathHelper/blob/main/test/%E8%9E%A2%E5%B9%95%E6%93%B7%E5%8F%96%E7%95%AB%E9%9D%A2%202022-06-10%20185359.png" alt="2" width="300" /> 
 </p>
