@@ -1,7 +1,5 @@
 ## 2022 AI Capstone Final Project
-## MathHelper - A Webapp for solving handwritten equations using CNN
-
-
+# MathHelper - A Webapp for solving handwritten equations using CNN
 目前的版本能夠處理的一維算術表達式包括基本的加減乘除、 sin、cos、tan、 log、factorial 、pi，之後期待能夠實作出識別更加複雜的數學計算(次方、二元多次式)
 
 ### Dataset
